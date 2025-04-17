@@ -10,14 +10,17 @@
 //---------------create method of object--------------
 // const student = {
 //     age: 18,
+//     isHuman:true,
 //     printIntroduction: function () {
-//         console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);
+//         console.log(`My name is ${this.name}. Am I human? ${this.isHuman} and my age is ${this.age}`);
 //     },
 // };
+// student.printIntroduction()
 // const me = Object.create(student);
 // me.name = "Usman Jamil";
 // me.age = 22;
 // me.printIntroduction();
+// console.log(me)
 
 
 //------------------ entries method of object-----------------
