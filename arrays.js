@@ -92,3 +92,26 @@
 //     return acc;
 // },{})
 // console.log(output)
+
+
+// ----------- performing same tasks with function and reduce method of Array-----------
+// let arr = [4, 3, 5, 7, 2, 1];
+// function findSum(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum = sum + arr[i];
+//     }
+//     return sum;
+// }
+// console.log(findSum(arr));
+// let output = arr.reduce(function (acc, crr) {
+//     acc = acc + crr;
+//     return acc;
+// },0)
+// console.log(output)
+
+
+//----------------------- reduce method real life problem of Computing Average Ratings from Reviews------------------
+// const ratings = [4.5, 3.8, 4.2, 5.0, 3.9];
+// const averageRating = ratings.reduce((acc, rating) => acc + rating, 0) / ratings.length;
+// console.log(averageRating.toFixed(2));
